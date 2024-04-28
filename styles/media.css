@@ -1,0 +1,149 @@
+/* @media (max-width: 1200px) { */
+/* .accordion-container {
+        transform: rotate(90deg);
+        height: 100vh;
+    }
+
+    .accordion-container .is-active {
+        flex-direction: row-reverse;
+        min-width: 460px;
+    }
+
+    .ac {
+        height: 100%;
+        width: 85px;
+    }
+
+    .ac.is-active .ac-panel {
+        height: 100% !important;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .ac-trigger__count {
+        transform: rotate(-90deg);
+    }
+
+    .ac-text, .ac__date, .ac__btn {
+        transform: rotate(-90deg);
+    }
+} */
+
+@media (max-width: 992px) {
+    body {
+        font-size: 16px;
+    }
+
+    .main__content {
+        padding-top: 98px;
+    }
+
+    .main__svg-left {
+        width: 33%;
+        height: 30%;
+        top: -65px;
+        left: -7px;
+    }
+
+    .main__svg-right {
+        width: 28%;
+    }
+
+    .main__logo {
+        margin-bottom: 162px;
+    }
+
+    .main__title {
+        font-size: 36px;
+        margin-bottom: 19px;
+    }
+
+    .main__text-subtitle {
+        margin-bottom: 22px;
+        width: 41%;
+    }
+
+    .main__text-btn {
+        margin-bottom: 15px;
+    }
+
+    .main__btn {
+        font-size: 18px;
+    }
+
+    .timer {
+        max-width: 385px;
+        max-height: 110px;
+        margin-bottom: 30px;
+    }
+
+    .timer__value {
+        font-size: 36px;
+        min-width: 64px;
+    }
+
+    .timer__separator {
+        font-size: 36px;
+        transform: translateY(16px);
+        padding: 0 12px;
+    }
+
+    .timer__img {
+        transform: translateY(-33px);
+    }
+
+    .main__footer {
+        padding-top: 39px;
+        padding-bottom: 84px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__form {
+        min-width: 360px;
+        padding: 8px 17px;
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .main__form-arrow {
+        width: 33px;
+        height: 33px;
+        right: 4px;
+        top: 4px;
+    }
+
+    .main__footer-btn {
+        position: unset;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 556px) {
+    .main__content {
+        padding: 79px 35px 0 35px;
+    }
+
+    .main__logo {
+        width: 128px;
+        height: 40px;
+        margin-bottom: 68px;
+    }
+
+    .main__title {
+        margin-bottom: 14px;
+    }
+
+    .main__text-subtitle {
+        width: 100%;
+    }
+
+    .main__text-btn {
+        width: 107%;
+    }
+
+    .timer__separator {
+        padding: 0 5px;
+    }
+}
